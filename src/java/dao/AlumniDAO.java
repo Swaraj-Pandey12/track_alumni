@@ -41,7 +41,7 @@ public class AlumniDAO {
                 alumni = new Alumni();
 //                data from db
                 
-//                set data to admin object
+//                set data to alumni object
                alumni.setId(rs.getInt("aid"));
                alumni.setEmail(rs.getString("email"));
                alumni.setEnrollment(rs.getString("enrollment_no"));
